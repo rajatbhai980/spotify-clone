@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m1{
+    margin: 5px;
+}
+
+.p1{
+    padding: 10px;
+}
+
+/* Target scrollbar track and thumb */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* dark background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;      /* thumb color */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;      /* on hover */
+}
